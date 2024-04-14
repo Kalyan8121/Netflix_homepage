@@ -1,0 +1,373 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;700;800&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #000;
+    color: #fff;
+}
+
+.header {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(imgs/header-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 10px 8%;
+    position: relative;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+.logo {
+    width: 150px;
+    cursor: pointer;
+}
+
+nav button {
+    border: none;
+    outline: none;
+    background-color: #db0001;
+    color: #fff;
+    padding: 7px 20px;
+    font-size: 12px;
+    border-radius: 4px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.lang-btn {
+    display: inline-flex;
+    align-items: center;
+    background: transparent;
+    border: 1px solid #fff;
+    padding: 7px 10px;
+}
+
+.lang-btn img {
+    width: 10px;
+    margin-left: 10px;
+} 
+
+.fa-globe {
+    color: #fff;
+    width: 10px;
+    margin-right: 10px;
+}
+
+.header-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    margin-top: 100px;
+}
+
+.header-content h1 {
+    font-size: 60px;
+    line-height: 70px;
+    font-weight: 600;
+    max-width: 650px;
+}
+
+.header-content h3 {
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.email-signup {
+    background-color: #ffffff;
+   
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    overflow: hidden;
+}
+
+.email-signup input {
+    flex: 1;
+    border: 0;
+    outline: 0;
+    margin-left: 20px;
+}
+
+.email-signup button {
+    background-color: #db0001;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 15px 30px;
+}
+
+
+/* Bottom block styling */
+.bottom-block {
+    background-color: #000;
+    color: #fff;
+    padding: 50px 20px;
+}
+
+
+#plans-title {
+    margin: 0;
+    margin-left: 10%;
+    padding:2%;
+    text-align: left;
+    background-color: #7a3a7e;
+    height:130px;
+    width:80%;                  
+    border-radius: 12px;
+
+}
+
+#plans-title:hover{
+    box-shadow: #847f7f;
+  transition: transform .2s;
+    transform: scale(1.01);
+}
+
+
+#resons-to-join {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    gap: 30px;
+    width: 80%;
+    margin-left: 10%;
+    padding-top: 3px;
+}
+
+.sub-flex{ 
+    flex:200px;
+    width: 80%;
+    background-image: linear-gradient(-225deg, #A8BFFF 0%, #884D80 100%);
+    padding: 20px;
+    border-radius: 24px;
+    background-color: #757575;
+    color: #fff;
+}
+.sub-flex img{
+       float: inline-end;
+       margin-top:30px;
+}
+
+.sub-flex p{
+    margin-top: 10px;
+    font-size: smaller;
+
+}
+
+
+.parentlogo {
+    margin: auto;
+    position: relative;
+    top:-15px;
+    left:-20px;
+    float:inline-end;
+  }
+  .image1 {
+    margin: auto;
+    height: 40px;
+    width: 40px;
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+  .image2 {
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+  }
+ 
+details>summary {
+    list-style-type: none;
+    background-color: #4d4d4d;
+    outline: none;
+    cursor: pointer;
+    border: none;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  details>summary::-webkit-details-marker {
+    display: flex;
+    flex-wrap: wrap;
+  }
+ 
+  details p{
+    background-color: #323232;
+    padding: 30px;
+    font-size:inherit;
+    
+  }
+
+.faq {
+    width:80%;
+    margin-top: 40px;
+    margin-left: 10%;
+}
+
+.faq ul {
+    display: inline-flexbox;
+    list-style-type: none;
+    width: 75%;
+    
+}
+
+.faq ul li {
+    
+    margin-bottom: 8px;
+    
+}
+.faq h3 {
+    font-weight: 100;
+    font-size: x-large;
+    margin-bottom: 10px;
+}
+  .box{
+    margin: auto;
+    margin-top: 10px;
+    margin-left: 10%;
+    width: 75%;
+  }
+.box small {
+        margin-top: 10px;
+        font-size: 13px;
+    }
+
+
+
+.footer {
+    padding: 50px 15% 10px;
+    border-top: 6px solid #333;
+    color: #777;
+}
+
+.footer h2 {
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.footer .col {
+    flex-basis: 25%;
+    flex-grow: 1;
+    margin-bottom: 20px;
+}
+
+.footer .col a {
+    display: block;
+    color: #777;
+    font-size: 14px;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+
+.footer .row {
+    align-items: flex-start;
+    padding: 10px 0px;
+}
+
+.footer .lang-btn {
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 3px;
+} 
+
+.copyright-text{
+    margin-top: 10px;
+}
+
+.popup {
+    display: none;
+    position: fixed;
+    bottom: 20px; /* Adjust this value as needed */
+    right: 20px; /* Adjust this value as needed */
+    background-color: rgba(255, 255, 255, 0.2); /* Transparent white */
+    border: 2px solid #333333;
+    border-radius: 8px;
+    padding: 20px;
+    z-index: 1000;
+}
+
+@media only screen and (max-width: 600px) {
+    .logo {
+        width: 100px;
+    }
+
+    nav button {
+        padding: 5px 10px;
+    }
+
+    nav .lang-btn {
+        padding: 4px 8px;
+    }
+
+    .header-content {
+        position: unset;
+        transform: none;
+        padding-top: 150px;
+    }
+
+    .header-content h1 {
+        font-size: 30px;
+    }
+
+    .email-signup button {
+        font-size: 12px;
+        padding: 10px 15px;
+    }
+
+    .text-col, .img-col {
+        flex-basis: 100%;
+    }
+
+    .features h2 {
+        font-size: 30px;
+    }
+
+    .features p {
+        font-size: 15px;
+    }
+
+    .row:nth-child(2), .row:nth-child(4) {
+        flex-direction: column-reverse;
+    }
+
+    .features .row {
+        padding: 10px 0;
+    }
+
+    .faq h2 {
+        font-size: 20px;
+    }
+
+    .accordion .content {
+        font-size: 14px;
+    }
+
+    .accordion li label {
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    label::after {
+        font-size: 22px;
+    }
+}
